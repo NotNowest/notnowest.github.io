@@ -1,0 +1,131 @@
+ 
+            h1 {
+                text-align: center;
+            }
+
+            
+            .factspost, .curvepost, .seenpost {
+                text-decoration: none;
+                color: inherit; 
+            }
+
+            .galeria {
+                
+                padding: 50px;
+                display: flex;
+                gap: 60px;      /* bem menor */
+                justify-content: center;
+                flex-wrap: wrap; 
+                background-size: cover; 
+                background-color: #0c0c0c;
+                background-repeat: no-repeat; 
+                background-position: center; 
+                background-attachment: fixed;
+            }
+             .galeria img {
+                border: solid 2px #525252;
+                max-width: 80%;
+                margin-bottom: 5px;
+                box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
+                
+
+            }
+
+            body {
+                font-family: serif ;
+                color: rgb(255, 255, 255);
+                padding: 0;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color:black;
+                margin: 0;
+                overflow-x: hidden;
+            }
+
+            .item {
+                text-align: center;
+                font-size: 50px;
+            }
+
+            .item img {
+                max-width: 400px; max-height: 350px; 
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+                
+            }
+            .linha {
+                    height: 3px;
+                 background-color: white;
+                 margin: 0px 0;
+                 
+            }
+            .spng img  {
+                max-width: 5%;    
+                border: 0;
+                
+                
+            }
+
+            .spng {
+                display: flex;  
+                gap: 20px;  
+                justify-content: center;
+                
+            
+                 
+            }
+
+            .textb {
+                text-align: center;
+            }
+
+
+           .mp4player {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: linear-gradient(to right, #0c0c0c, #030303);
+                justify-content: center;
+                margin-top: 20px;
+                
+                
+            }
+
+            video {
+                width: 30%;
+                max-width: 800px;
+                border-radius: 15px;
+                box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5);
+                margin: 0 auto;
+                border: solid 2px #525252;
+           }
+
+            .seenpost {
+                margin-top: 10px;
+                font-size: 20px;
+                color: #fff;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                
+            }
+
+            .mp4player img {
+                width: 5%;
+                margin-top: 20px;
+                
+                
+                
+            }
+
+            .tiktokA{
+                margin-bottom: 15px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-decoration: yellow;
+                color: rgb(255, 255, 255); 
+                text-decoration: underline;
+                
+            }
+           
+            
+           
+        
